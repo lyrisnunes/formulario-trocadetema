@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#E67263;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 5rem;
+}
+
+.login h2{
+    font-weight: 500;
+    border-left: 12px solid #F06775;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-left: 15px;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    font-size: 1rem;
+}
+
+.login .inputBox input#btn{
+    border: none;
+    background-color: #E67263;
+    color: #fff;
+    transition:  0.5s;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+
+.login .group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .group a{
+    color: #333;
+    text-decoration: none;
+}
+
+.login .group a:hover{
+    color: #E67263;
+}
+
+.colors{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colors span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: var(--cor);
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.colors span.active{
+    border: 2px solid rgba(0, 0, 0, 0.329);
+    scale: 1.5;
+    transform: 0.5s;
+}
