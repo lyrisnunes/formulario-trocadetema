@@ -1,4 +1,3 @@
-
 let btn = document.getElementById('btn');
 let txt = document.getElementById('txt');
 function changeColor(color){
@@ -9,5 +8,5 @@ function changeColor(color){
     document.querySelectorAll('span').forEach(function (item){
         item.classList.remove('active');
     })
-    event.target.classList.add('active')
+    event.target.classList.add('active');
 }
