@@ -1,13 +1,14 @@
 <h1>
-        <img src="img/fot1.jpeg">
+         <img src="img/video.gif" alt="">
 </h1>
 
 <h1>
         <img src="img/fot2.jpeg">
 </h1>
-## 👩🏽‍💻 Sobre o projeto Página de Cadastro
 
-Mas um projeto pronto com meu querido JAVASCRIPT. Foi desenvolvido uma página de Cadastro e com trocas de tema.
+## 👩🏽‍💻 Sobre o projeto Página de Login
+
+Foi desenvolvido uma página de login com Javascript e com trocas de tema.
 
 Este projeto é responsivo, adaptável a qualquer tamanho de tela.
 
